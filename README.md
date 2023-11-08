@@ -88,7 +88,7 @@ y_train[7]
 x_train_flattened=x_train.reshape(len(x_train),28*28)
 x_test_flattened=x_test.reshape(len(x_test),28*28)
 ```
-## NETWROK ARCHITECTURE
+## NETWORK ARCHITECTURE
 ```py
 model = Sequential()
 model.add(Conv2D(32,(3,3), input_shape=(28,28,1),activation='relu'))
